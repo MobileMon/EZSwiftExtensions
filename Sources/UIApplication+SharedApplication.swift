@@ -11,11 +11,11 @@ import UIKit
 @objc public extension UIApplication {
     
     @objc public static func safeSharedApplication() -> UIApplication? {
-        guard UIApplication.respondsToSelector("sharedApplication") else {
+        guard UIApplication.respondsToSelector(Selector("sharedApplication")) else {
             return nil
         }
         
-        guard let unmanagedSharedApplication = UIApplication.performSelector("sharedApplication") else {
+        guard let unmanagedSharedApplication = UIApplication.performSelector(Selector("sharedApplication")) else {
             return nil
         }
         

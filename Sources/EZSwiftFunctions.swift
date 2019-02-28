@@ -117,7 +117,8 @@ public struct ez {
 
     /// EZSE: Returns current screen orientation
     public static var screenOrientation: UIInterfaceOrientation {
-        return UIApplication.safeSharedApplication()!.statusBarOrientation
+        let application = UIApplication.value(forKeyPath: #keyPath(UIApplication.shared)) as! UIApplication
+        return application.statusBarOrientation
     }
 
     #endif
@@ -178,7 +179,8 @@ public struct ez {
 
     /// EZSE: Returns StatusBar height
     public static var screenStatusBarHeight: CGFloat {
-        return UIApplication.safeSharedApplication()!.statusBarFrame.height
+        let application = UIApplication.value(forKeyPath: #keyPath(UIApplication.shared)) as! UIApplication
+        return application.statusBarFrame.height
     }
 
     /// EZSE: Return screen's height without StatusBar

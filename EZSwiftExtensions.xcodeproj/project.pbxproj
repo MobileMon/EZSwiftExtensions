@@ -135,7 +135,6 @@
 		7605D3171C81FC180046FAC3 /* IntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7605D3071C81FBB80046FAC3 /* IntTests.swift */; };
 		7605D3181C81FC180046FAC3 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7605D3081C81FBB80046FAC3 /* DateTests.swift */; };
 		7605D3191C81FC180046FAC3 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7605D3091C81FBB80046FAC3 /* StringTests.swift */; };
-		7854747B2228742C00D1C574 /* UIApplication+SharedApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7854747A2228742C00D1C574 /* UIApplication+SharedApplication.swift */; };
 		79AB4F2D1D03394F009183EC /* NSDictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB4F2B1D03394F009183EC /* NSDictionaryExtensions.swift */; };
 		79AB4F2E1D03394F009183EC /* NSDictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB4F2B1D03394F009183EC /* NSDictionaryExtensions.swift */; };
 		79AB4F2F1D03394F009183EC /* NSDictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB4F2B1D03394F009183EC /* NSDictionaryExtensions.swift */; };
@@ -381,7 +380,6 @@
 		7605D3071C81FBB80046FAC3 /* IntTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntTests.swift; sourceTree = "<group>"; };
 		7605D3081C81FBB80046FAC3 /* DateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
 		7605D3091C81FBB80046FAC3 /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
-		7854747A2228742C00D1C574 /* UIApplication+SharedApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+SharedApplication.swift"; sourceTree = "<group>"; };
 		79AB4F2B1D03394F009183EC /* NSDictionaryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDictionaryExtensions.swift; sourceTree = "<group>"; };
 		79AB4F2C1D03394F009183EC /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
 		8889A85A1D20E8D500635002 /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
@@ -679,7 +677,6 @@
 				0B96F02C1E2FD32000236DDE /* UIEdgeInsets.swift */,
 				2D919FCF212FC9440024A3AE /* TimePassed.swift */,
 				98246C662111CC0500ECA4A2 /* HashableExtensions.swift */,
-				7854747A2228742C00D1C574 /* UIApplication+SharedApplication.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -985,7 +982,6 @@
 				5AF577911EEE52DC00B1C277 /* NSObjectExtensions.swift in Sources */,
 				5AF577921EEE52DC00B1C277 /* StringExtensions.swift in Sources */,
 				5AF577931EEE52DC00B1C277 /* TimerExtensions.swift in Sources */,
-				7854747B2228742C00D1C574 /* UIApplication+SharedApplication.swift in Sources */,
 				5AF577941EEE52DC00B1C277 /* UIAlertControllerExtensions.swift in Sources */,
 				5AF577951EEE52DC00B1C277 /* UIApplicationExtensions.swift in Sources */,
 				5AF577961EEE52DC00B1C277 /* UIBarButtonItemExtensions.swift in Sources */,

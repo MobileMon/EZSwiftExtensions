@@ -8,9 +8,9 @@
 
 import UIKit
 
-extension UIApplication {
+@objc public extension UIApplication {
     
-    static func safeSharedApplication() -> UIApplication? {
+    @objc public static func safeSharedApplication() -> UIApplication? {
         guard UIApplication.respondsToSelector("sharedApplication") else {
             return nil
         }

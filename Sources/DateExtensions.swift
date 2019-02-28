@@ -106,6 +106,7 @@ extension Date {
         return diff
     }
 
+    /*
     /// EZSE: Easy creation of time passed String. Can be Years, Months, days, hours, minutes or seconds
     public func timePassed() -> String {
         let date = Date()
@@ -159,7 +160,7 @@ extension Date {
             return TimePassed.now
         }
     }
-    
+    */
     /// EZSE: Check if date is in future.
     public var isFuture: Bool {
         return self > Date()
